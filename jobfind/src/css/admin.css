@@ -1,0 +1,15 @@
+.tabbar{
+    padding: 8px 16px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: inherit;
+}
+.tabbar:hover{
+    background-color: brown;
+}
+.activeTab{
+    background-color: brown;
+}

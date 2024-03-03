@@ -1,0 +1,15 @@
+const express = require('express');
+const PostController = require('../controllers/PostController');
+const AccountController = require('../controllers/AccountController');
+const route = express.Router();
+var multer = require('multer');
+var upload = multer({ dest: 'uploads/' });
+route.get('/search/:Job',PostController.searchPostbyJob);
+route.post('/login',AccountController.login);
+route.post('/register',AccountController.register);
+route.post('/upload/:Id',AccountController.upload);
+route.get('/accountdetail/:Id',AccountController.accountDetail);
+route.put('/saveinfo/:Id',AccountController.saveInfo);
+route.get('/forgotpassword/:Id',AccountController.sendMailForgetPassword);
+route.put('/changepass/:Id',AccountController.changePass);
+module.exports = route;

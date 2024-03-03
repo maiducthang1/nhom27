@@ -1,0 +1,218 @@
+body {
+    background-image: url(http://localhost:3000/images/background.jpg);
+}
+.bg{
+    width: 100%;
+    height: inherit;
+    position: fixed;
+    object-fit: cover;
+    margin: auto;
+    margin-left: -50%;
+}
+.logform {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+.inputlog {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    margin: 17px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.btnlog {
+    height: 30px;
+    margin: 20px 0px 0px 100px;
+    border: none;
+    border-radius: 10px;
+    background: #D9D9D9;
+    font-weight: 700;
+    color: #755353;
+    transition: 0.5s;
+}
+.btnlog:hover {
+    background: white;
+    color: dimgray;
+    transition: 0.5s;
+}
+.loglink {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+.linedown {
+    top: 15%;
+    background-color: #B1A2A2;
+    width: 1px;
+    height: 77%;
+    position: absolute;
+    left: 47%;
+}
+.intro{
+    position: absolute;
+    background: #CAD6DA;
+    left: 50%;
+    top: 15%;
+    width: 35%;
+    height: 77%;
+    border-radius: 20px;
+}
+/* header */
+.topbar{
+    overflow: hidden;
+    background: #C4BEBE;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.topbarelement{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.topbarbtn {
+    border: none;
+    background: #3E8B9C;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px 15px;
+}
+.search {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 225px;
+    margin: 0px 20px;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+  
+.gridContainer > div {
+    background: #D9D9D9;
+    border: none;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px 75px;
+}
+.gridContainerRecuit {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 100px;
+    padding: 10px;
+}
+  
+.gridContainerRecuit > div {
+    border: none;
+    text-align: center;
+    width: 100px;
+    margin: 10px 30px;
+}
+.text {
+    color: #5C1010;
+}
+.miniicon {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    position: relative;
+    left: 5%;
+}
+.icon-fit{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 10px;
+}
+.iteminvite{
+    position: absolute;
+    align-content: center;
+    display: grid;
+    left: 10%;
+}
+.titleinvite{
+    overflow: hidden;
+    height: 25px;
+    width: 175px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.leftinvite{
+    left: 10%;
+    position: relative;
+}
+.itemline{
+    margin: 5px 0px;
+    height: 2px;
+    background: #424242;
+    width: 75%;
+    position: relative;
+    left: 20%;
+}
+.salaryplace{
+    display: flex;
+    justify-content: space-between;
+    left: 20%;
+    position: relative;
+    width: 70%;
+    padding: 0px 0px 5px 0px;
+}
+.graywarp{
+    background: #978B8B;
+    border-radius: 7px;
+    padding: 2px;
+}
+table tr{
+    height: 40px;
+    text-align: left;
+}
+table tr td div input{
+    margin-left: 70px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 150%;
+}
+.optionbtn {
+    width: 50px;
+    height: 25px;
+    top:5px;
+    position: relative;
+}
+.address {
+    overflow: hidden;
+    height: 25px;
+    width: 80px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.longaddress {
+    overflow: hidden;
+    height: 25px;
+    width: 150px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.listjob {
+    margin: 10px;
+    width: 80%;
+    background: whitesmoke;
+    left: 7%;
+    position: relative;
+    padding: 10px;
+    line-height: 15px;
+    border: #ff6a6a 5px;
+    border-radius: 10px;
+    border-style: outset;
+}
